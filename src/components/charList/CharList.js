@@ -92,6 +92,7 @@ const CharList = (props) => {
               errorMessage = error ? <ErrorMessage/>: null,
               spinner = loading && !newItemLoading ? <Spinner/> : null;
 
+
         return(
             <div className="char__list">
                 {errorMessage}
